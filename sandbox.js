@@ -1,7 +1,15 @@
-var character = 'luigi';
-console.log(character);
-var inputs = document.querySelectorAll('input');
-console.log(inputs);
-inputs.forEach(function (input) {
-    console.log(input);
-});
+var character;
+var age;
+var isValid;
+age = 30;
+isValid = true;
+var ninjas = [];
+ninjas.push('mario');
+var mixed = [];
+mixed.push('Luigi');
+mixed.push(4);
+mixed.push(true);
+console.log(mixed);
+var uid;
+uid = 12;
+uid = '12';
