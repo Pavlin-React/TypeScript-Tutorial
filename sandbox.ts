@@ -1,21 +1,17 @@
-let character: string
-let age: number
-let isValid: boolean
+let age: any = 25
+age = true
+console.log( age );
+age = 23
+console.log( age );
+age = { 'name': 'mario', age: 33 }
+console.log( age );
 
-age = 30
-
-isValid = true
-
-let ninjas: string[] = []
-ninjas.push( 'mario' )
-
-let mixed: ( string|number|boolean )[] = []
-mixed.push( 'Luigi' )
-mixed.push( 4 )
-mixed.push( true )
+let mixed: any[] = []
+mixed.push( 5 )
+mixed.push( 'luigi' )
+mixed.push( false )
 console.log( mixed );
 
-let uid: string|number
-uid = 12
-uid = '12'
+
+
 
