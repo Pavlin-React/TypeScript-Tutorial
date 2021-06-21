@@ -1,3 +1,4 @@
+"use strict";
 var age = 25;
 age = true;
 console.log(age);
@@ -10,3 +11,4 @@ mixed.push(5);
 mixed.push('luigi');
 mixed.push(false);
 console.log(mixed);
+console.log('ok');

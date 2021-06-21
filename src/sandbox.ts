@@ -13,5 +13,6 @@ mixed.push( false )
 console.log( mixed );
 
 
+console.log( 'ok' );
 
 
